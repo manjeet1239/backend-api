@@ -19,7 +19,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, us
 })
 
 app.get('/', (req, res) => {
-    console.log('api working');
+    console.log('api is working');
     res.send('it is working')
 })
 app.use(bodyParser.json())
